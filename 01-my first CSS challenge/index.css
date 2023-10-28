@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+/* body css code for align items in center */
+body{
+    background-color: rgb(12, 61, 61);
+    display: grid;
+    place-items:center;
+
+   
+}
+
+/* set header with css code */
+
+header{
+    width: 1000px;
+    height: 100px;
+    background-color: #ffffff;
+    
+}
+
+/* contact us css code desing */
+
+.contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.50rem;
+    font-weight: 700;
+    
+}
+
+/* this css code for Any questions or remarks paragraph */
+.anyqr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+/* start main contant with main tag  */
+
+main{
+    width: 1000px;
+    height: 500px;
+    background-color: #ffffff; 
+}
+
+/* email and name text div css code */
+
+.email-name{
+display:flex;
+justify-content:center;
+align-items: center;
+
+    
+}
+
+.email{
+    margin-right: 20px;
+}
+
+.emailnamelabel{
+   color: rgba(0, 0, 0, 0.788);
+   margin: 15px;
+}
+
+
+.emailnametext {
+    width: 300px;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #b8b8b867;
+    border:none;
+    display: block;
+    margin: 10px;
+    
+    
+}
+
+/* create css code for massage */
+
+.massage-div{
+    display: grid;
+    place-items: center;
+    
+}
+
+/* massage label css code */
+
+.massagelabel{
+    margin-left: -580px;  
+    margin-bottom: -1px;  
+}
+
+.massagetextarea{
+    border-radius: 5px;
+    width: 638px;
+    height: 150px;
+    position:relative;
+}
+
+/* submit button css code */
+
+.submit-button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+/* submit button css code */
+
+.submit-button{
+    width: 637px;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(21, 141, 221, 0.856);
+    color: white;
+
+
+}
+
+/* footer css code */
+
+footer{
+    width: 1000px;
+    height: 250px;
+    background-color: rgba(40, 178, 241, 0.877);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.all-footer-icon-set{
+    width: 900px;
+    height: 230px;
+    background-color: #d3d3d3;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+.icons{
+    width: 100px;
+    height: 100px;
+    background-color: #23bceb;
+    border-radius: 50%;
+    margin-top: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutusimg{
+    width: 55px;
+}
+
+.phoneimg{
+    width: 60px;   
+}
+
+.locationimg{
+    width: 40px;
+}
+
+.footer-details{
+    width: 900px;
+    height: 170px;
+    position: absolute;
+    margin-bottom: 90px;
+    display: flex;
+   
+}
+
+.about{
+    
+    width: 200px;
+    height: 100px;
+    margin: 20px 55px 0px 100px;
+}
+
+.phone{
+  
+    width: 200px;
+    height: 100px;
+    margin: 20px -25px 0px 0px;
+}
+.address{
+    
+    width: 350px;
+    margin: 20px -50px 0px 0px;
+    
+    
+}
+
+.footerh1{
+    color:black;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerul{
+    color:black;
+    font-size: 0.8rem;
+    list-style-type:none;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.footerul li{
+    padding: 3px;
+    
+}
+
+.footerul li sup{
+    color:black;
+    font-size: 0.6rem;
+    
+}

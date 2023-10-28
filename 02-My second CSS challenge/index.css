@@ -1,0 +1,100 @@
+/* set all default values */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* set header css properties */
+
+header{  
+    
+    background-color: rgb(70, 109, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+/* header h1 font size increment */
+header h1{
+    font-size: 5rem;
+}
+/* main element css properties set */
+main{
+    background-color: #692c2c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* main element All 4 divs class same name box  */
+.box{
+    background-color: #ffffff;
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* all calss box h2 css set */
+.box h2{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+.box img{
+    width: 260px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.box h6 {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.box a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.box a:hover{
+    text-decoration: underline;
+    color: rgb(211, 87, 4);
+}
+
+footer{
+    background-color: #6d6565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+/* using media queries for tablets & mobile screen sizes */
+
+@media only screen and (max-width: 767px){
+    /* For tablets: */
+    body {
+      width: 100%;
+    }
+
+    header h1{
+        font-size: 2rem;
+    }
+    
+  }
+  @media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    body {
+      width: 100%;
+    }
+
+    header h1{
+    font-size: 1.8rem;
+}
+    
+  }
